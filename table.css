@@ -1,0 +1,55 @@
+table, th, td{
+    border: 1px solid #3333;
+    border-collapse: collapse;
+}
+
+table{
+    border: 0;
+    margin: auto;
+}
+
+.titles th:first-child{
+    border: 0;
+
+}
+
+tr td{
+    width: 225px;
+}
+
+tr td:not(:first-child){
+    text-align: center;
+}
+
+.prices td:not(:first-child){
+    height: 45px;
+    font-size: 18px;
+}
+
+.prices td:nth-child(2){
+    background-color: cadetblue;
+}
+
+.prices td:nth-child(3){
+    background-color: aqua;
+}
+
+.prices td:nth-child(4){
+    background-color: cornflowerblue;
+}
+
+.user td:first-child{
+    text-align: center;
+}
+
+.choose td button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.choose td{
+    height: 45px;
+}
